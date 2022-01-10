@@ -1,5 +1,5 @@
 # stock-analysis
-Performing analysis on stock data with VBA
+Performing analysis on stock data with VBA.
 
 ## Overview of Project
 
