@@ -21,7 +21,8 @@ Utilizing the challenge starter code file reference and our knowledge gained thr
 
     '1b) Create three output arrays
     Dim tickerVolumes(12) As Long
-    Dim tickerStartingPrices(12) As Single, tickerEndingPrices(12) As Single
+    Dim tickerStartingPrices(12) As Single
+    Dim tickerEndingPrices(12) As Single
     
     ''2a) Create a for loop to initialize the tickerVolumes to zero.
     For i = 0 To 11
@@ -37,11 +38,11 @@ Utilizing the challenge starter code file reference and our knowledge gained thr
         
         '3b) Check if the current row is the first row with the selected tickerIndex.
         'If  Then
-         If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i - 1, 1).Value <> tickers(tickerIndex) Then
-         tickerStartingPrices(tickerIndex) = Cells(i, 6).Value
+        If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i - 1, 1).Value <> tickers(tickerIndex) Then
+        tickerStartingPrices(tickerIndex) = Cells(i, 6).Value
             
             
-         End If
+        End If
         
         '3c) check if the current row is the last row with the selected ticker
          'If the next rowâ€™s ticker doesnâ€™t match, increase the tickerIndex.
