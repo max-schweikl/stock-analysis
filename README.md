@@ -12,7 +12,7 @@ In prior module work, we helped Steve analyze a pool of green energy stocks, as 
 
 ![](Resources/VBA_Challenge_2018_Original.png)
 
-## Refactored VBA Code
+### Refactored VBA Code
 
 Utilizing the challenge starter code file reference and our knowledge gained throughout module 2 around VBA, we were able to refactor the VBA code to loop through the same dataset, however our new refactored code now runs faster than it did compared to the original VBA code that was written during module 2 work.
 
